@@ -63,19 +63,30 @@ class UserCenterController: FKBaseViewController {
     func initPersonHeaderView() {
         personHeaderView = UIView.init(frame: fk_Rect(0, 0, SCREEN_WIDTH(), headerViewHeight))
         
-        let headerImageView = UIImageView.init(frame: fk_Rect(0, 0, 80, 80))
-        headerImageView.image = UIImage(named:"head")
-        headerImageView.center = fk_Point((personHeaderView?.bounds.size.width)!/2, (personHeaderView?.bounds.size.height)!/2 + 20)
-        headerImageView.layer.cornerRadius = headerImageView.bounds.size.width/2
-        headerImageView.layer.masksToBounds = true
-        personHeaderView?.addSubview(headerImageView)
+        let headBackView = UIView.init(frame: fk_Rect(-1, 10 + TotalNavHeight(), SCREEN_WIDTH() + 2, 100))
+        headBackView.backgroundColor = UIColor.white
+        headBackView.layer.borderColor = UIColor.lightGray.cgColor
+        headBackView.layer.borderWidth = 0.5
+        personHeaderView?.addSubview(headBackView)
         
-        let nameLabel = UILabel.init(frame: fk_Rect(0, 0, SCREEN_WIDTH(), 20))
-        nameLabel.textAlignment = .center
+        let tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(tapEventToUserInfoAction))
+        headBackView.addGestureRecognizer(tapGesture)
+        
+        let headerImageView = UIImageView.init(frame: fk_Rect(15, 10, 80, 80))
+        headerImageView.image = UIImage(named:"head")
+//        headerImageView.center = fk_Point((personHeaderView?.bounds.size.width)!/2, (personHeaderView?.bounds.size.height)!/2 + 20)
+        headerImageView.layer.cornerRadius = 2
+        headerImageView.layer.masksToBounds = true
+        headerImageView.layer.borderWidth = 0.5
+        headerImageView.layer.borderColor = UIColor.lightGray.cgColor
+        headBackView.addSubview(headerImageView)
+        
+        let nameLabel = UILabel.init(frame: fk_Rect(110, 20, SCREEN_WIDTH() - 120, 30))
+        nameLabel.textAlignment = .left
         nameLabel.font = UIFont.systemFont(ofSize: 15.0)
         nameLabel.text = "克尔苏加德"
-        nameLabel.center = fk_Point((personHeaderView?.bounds.size.width)!/2, (personHeaderView?.bounds.size.height)!/2 + headerImageView.bounds.size.width/2 + 35)
-        personHeaderView?.addSubview(nameLabel)
+//        nameLabel.center = fk_Point((personHeaderView?.bounds.size.width)!/2, (personHeaderView?.bounds.size.height)!/2 + headerImageView.bounds.size.width/2 + 35)
+        headBackView.addSubview(nameLabel)
     }
     
     private func initTableView() {
@@ -88,6 +99,10 @@ class UserCenterController: FKBaseViewController {
         personListTableView?.ts_registerCellNib(UserTableViewCell.self)
         
         view.addSubview(personListTableView!)
+    }
+    
+    func tapEventToUserInfoAction() {
+        self.performSegue(withIdentifier: "UserInfoViewController", sender: nil)
     }
 }
 
