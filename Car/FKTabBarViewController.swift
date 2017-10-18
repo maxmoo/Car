@@ -45,7 +45,7 @@ class FKTabBarViewController: UITabBarController {
             controller.tabBarItem!.image = normalImagesArray[index]?.withRenderingMode(.alwaysOriginal)
             controller.tabBarItem!.selectedImage = selectedImagesArray[index]?.withRenderingMode(.alwaysOriginal)
 //            controller.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.black], for: UIControlState())
-            controller.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: RGB(R: 31, G: 185, B: 34, A: 1)], for: .selected)
+            controller.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: carMainColor()], for: .selected)
             let navigationController = FKBaseNavigantionController(rootViewController: controller)
             navigationVCArray.add(navigationController)
         }

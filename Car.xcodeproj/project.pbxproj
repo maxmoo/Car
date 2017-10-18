@@ -11,14 +11,20 @@
 		0D03F1121F96F84000C7C724 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D03F1101F96F84000C7C724 /* UserTableViewCell.xib */; };
 		0D03F1151F96FB6C00C7C724 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D03F1141F96FB6C00C7C724 /* Image.xcassets */; };
 		0D03F1171F9701A900C7C724 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1161F9701A900C7C724 /* UserInfoViewController.swift */; };
-		0D03F11B1F97023100C7C724 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F11A1F97023100C7C724 /* OrderViewController.swift */; };
-		0D03F11D1F97024300C7C724 /* AssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F11C1F97024300C7C724 /* AssetsViewController.swift */; };
-		0D03F11F1F97025400C7C724 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F11E1F97025400C7C724 /* AddressViewController.swift */; };
-		0D03F1211F97027000C7C724 /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1201F97027000C7C724 /* AddAddressViewController.swift */; };
 		0D03F1231F97028500C7C724 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1221F97028500C7C724 /* MessageViewController.swift */; };
 		0D03F1251F97029100C7C724 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1241F97029100C7C724 /* AboutViewController.swift */; };
 		0D03F1271F9703C200C7C724 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1261F9703C200C7C724 /* CustomerViewController.swift */; };
 		0D03F1291F9703E500C7C724 /* VersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1281F9703E500C7C724 /* VersionViewController.swift */; };
+		0D03F12C1F9749F600C7C724 /* CKSlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F12B1F9749F600C7C724 /* CKSlideMenu.swift */; };
+		0D03F1341F974B0B00C7C724 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F12E1F974B0A00C7C724 /* OrderViewController.swift */; };
+		0D03F1351F974B0B00C7C724 /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1301F974B0A00C7C724 /* AddAddressViewController.swift */; };
+		0D03F1361F974B0B00C7C724 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1311F974B0A00C7C724 /* AddressViewController.swift */; };
+		0D03F1371F974B0B00C7C724 /* AssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1331F974B0B00C7C724 /* AssetsViewController.swift */; };
+		0D03F1391F974B4F00C7C724 /* IntegralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1381F974B4F00C7C724 /* IntegralViewController.swift */; };
+		0D03F13B1F974B6D00C7C724 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F13A1F974B6D00C7C724 /* CouponViewController.swift */; };
+		0D03F13D1F974BAD00C7C724 /* WillPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F13C1F974BAD00C7C724 /* WillPayViewController.swift */; };
+		0D03F13F1F974BE300C7C724 /* WillReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F13E1F974BE300C7C724 /* WillReceiveViewController.swift */; };
+		0D03F1411F974BFC00C7C724 /* CompleteOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F1401F974BFC00C7C724 /* CompleteOrderViewController.swift */; };
 		0D28D1B41F96E13700297013 /* Mycar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D28D1B31F96E13700297013 /* Mycar.storyboard */; };
 		0D28D1B61F96E15600297013 /* Distribution.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D28D1B51F96E15600297013 /* Distribution.storyboard */; };
 		0D28D1B81F96E16400297013 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D28D1B71F96E16400297013 /* User.storyboard */; };
@@ -105,14 +111,20 @@
 		0D03F1101F96F84000C7C724 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 		0D03F1141F96FB6C00C7C724 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		0D03F1161F9701A900C7C724 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
-		0D03F11A1F97023100C7C724 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
-		0D03F11C1F97024300C7C724 /* AssetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsViewController.swift; sourceTree = "<group>"; };
-		0D03F11E1F97025400C7C724 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
-		0D03F1201F97027000C7C724 /* AddAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
 		0D03F1221F97028500C7C724 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		0D03F1241F97029100C7C724 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		0D03F1261F9703C200C7C724 /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
 		0D03F1281F9703E500C7C724 /* VersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionViewController.swift; sourceTree = "<group>"; };
+		0D03F12B1F9749F600C7C724 /* CKSlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CKSlideMenu.swift; sourceTree = "<group>"; };
+		0D03F12E1F974B0A00C7C724 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		0D03F1301F974B0A00C7C724 /* AddAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
+		0D03F1311F974B0A00C7C724 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		0D03F1331F974B0B00C7C724 /* AssetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsViewController.swift; sourceTree = "<group>"; };
+		0D03F1381F974B4F00C7C724 /* IntegralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegralViewController.swift; sourceTree = "<group>"; };
+		0D03F13A1F974B6D00C7C724 /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		0D03F13C1F974BAD00C7C724 /* WillPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillPayViewController.swift; sourceTree = "<group>"; };
+		0D03F13E1F974BE300C7C724 /* WillReceiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillReceiveViewController.swift; sourceTree = "<group>"; };
+		0D03F1401F974BFC00C7C724 /* CompleteOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteOrderViewController.swift; sourceTree = "<group>"; };
 		0D28D1B31F96E13700297013 /* Mycar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mycar.storyboard; sourceTree = "<group>"; };
 		0D28D1B51F96E15600297013 /* Distribution.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Distribution.storyboard; sourceTree = "<group>"; };
 		0D28D1B71F96E16400297013 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
@@ -216,6 +228,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D03F12A1F9749F600C7C724 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0D03F12B1F9749F600C7C724 /* CKSlideMenu.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		0D03F12D1F974B0A00C7C724 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				0D03F12E1F974B0A00C7C724 /* OrderViewController.swift */,
+				0D03F13C1F974BAD00C7C724 /* WillPayViewController.swift */,
+				0D03F13E1F974BE300C7C724 /* WillReceiveViewController.swift */,
+				0D03F1401F974BFC00C7C724 /* CompleteOrderViewController.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		0D03F12F1F974B0A00C7C724 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				0D03F1301F974B0A00C7C724 /* AddAddressViewController.swift */,
+				0D03F1311F974B0A00C7C724 /* AddressViewController.swift */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		0D03F1321F974B0B00C7C724 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0D03F1331F974B0B00C7C724 /* AssetsViewController.swift */,
+				0D03F1381F974B4F00C7C724 /* IntegralViewController.swift */,
+				0D03F13A1F974B6D00C7C724 /* CouponViewController.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		0D731BB51F95FC0800668DC8 = {
 			isa = PBXGroup;
 			children = (
@@ -322,12 +372,11 @@
 		0D731BFD1F95FDA000668DC8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0D03F12F1F974B0A00C7C724 /* Address */,
+				0D03F1321F974B0B00C7C724 /* Assets */,
+				0D03F12D1F974B0A00C7C724 /* Order */,
 				0D731C7C1F95FFE000668DC8 /* UserCenterController.swift */,
 				0D03F1161F9701A900C7C724 /* UserInfoViewController.swift */,
-				0D03F11C1F97024300C7C724 /* AssetsViewController.swift */,
-				0D03F11A1F97023100C7C724 /* OrderViewController.swift */,
-				0D03F11E1F97025400C7C724 /* AddressViewController.swift */,
-				0D03F1201F97027000C7C724 /* AddAddressViewController.swift */,
 				0D03F1221F97028500C7C724 /* MessageViewController.swift */,
 				0D03F1261F9703C200C7C724 /* CustomerViewController.swift */,
 				0D03F1281F9703E500C7C724 /* VersionViewController.swift */,
@@ -502,6 +551,7 @@
 		0D731C2D1F95FE7700668DC8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				0D03F12A1F9749F600C7C724 /* SlideMenu */,
 				0D731C931F96069600668DC8 /* MB */,
 				0D731C831F9601A700668DC8 /* QQ */,
 				0D731C2E1F95FE7700668DC8 /* IntroPage */,
@@ -817,10 +867,12 @@
 				0D03F1231F97028500C7C724 /* MessageViewController.swift in Sources */,
 				0D731C6B1F95FE7700668DC8 /* GIFHeader.swift in Sources */,
 				0D731C4C1F95FE7700668DC8 /* FKBaseDefaultView.swift in Sources */,
+				0D03F1351F974B0B00C7C724 /* AddAddressViewController.swift in Sources */,
 				0D731C5D1F95FE7700668DC8 /* Log.swift in Sources */,
 				0D731C711F95FE7700668DC8 /* RefreshView.swift in Sources */,
 				0D731C6D1F95FE7700668DC8 /* GIFTextHeader.swift in Sources */,
 				0D731C5B1F95FE7700668DC8 /* CommonTools.swift in Sources */,
+				0D03F1341F974B0B00C7C724 /* OrderViewController.swift in Sources */,
 				0D03F1271F9703C200C7C724 /* CustomerViewController.swift in Sources */,
 				0D731C6F1F95FE7700668DC8 /* IndicatorHeader.swift in Sources */,
 				0D731C501F95FE7700668DC8 /* Date+FKExtention.swift in Sources */,
@@ -828,6 +880,7 @@
 				0D731C721F95FE7700668DC8 /* ScrollViewExtension.swift in Sources */,
 				0D731C561F95FE7700668DC8 /* FKAccount.swift in Sources */,
 				0D731C681F95FE7700668DC8 /* B.swift in Sources */,
+				0D03F1371F974B0B00C7C724 /* AssetsViewController.swift in Sources */,
 				0D731BC21F95FC0800668DC8 /* AppDelegate.swift in Sources */,
 				0D03F1251F97029100C7C724 /* AboutViewController.swift in Sources */,
 				0D731C531F95FE7700668DC8 /* UINavigationController+NavTransition.m in Sources */,
@@ -835,6 +888,7 @@
 				0D731C571F95FE7700668DC8 /* FKColor.swift in Sources */,
 				0D731C6E1F95FE7700668DC8 /* IndicatorFooter.swift in Sources */,
 				0D731C731F95FE7700668DC8 /* TextFooter.swift in Sources */,
+				0D03F1361F974B0B00C7C724 /* AddressViewController.swift in Sources */,
 				0D731C4F1F95FE7700668DC8 /* FKBaseViewController.swift in Sources */,
 				0D731C7D1F95FFE000668DC8 /* UserCenterController.swift in Sources */,
 				0D731C921F9605C200668DC8 /* FKControllerAnimate.swift in Sources */,
@@ -842,20 +896,22 @@
 				0D731C771F95FE7700668DC8 /* CCActionSheet.m in Sources */,
 				0D731C631F95FE7700668DC8 /* FKRequestError.swift in Sources */,
 				0D731C4D1F95FE7700668DC8 /* FKBaseNavigantionController.swift in Sources */,
+				0D03F1411F974BFC00C7C724 /* CompleteOrderViewController.swift in Sources */,
 				0D731C661F95FE7700668DC8 /* FKIntroPageView.swift in Sources */,
 				0D731C691F95FE7700668DC8 /* FlycoHeader.swift in Sources */,
-				0D03F11B1F97023100C7C724 /* OrderViewController.swift in Sources */,
 				0D731C6A1F95FE7700668DC8 /* FlycoItem.swift in Sources */,
 				0D731C5E1F95FE7700668DC8 /* StoryboardHelper.swift in Sources */,
 				0D731C551F95FE7700668DC8 /* UIView+IBExtension.swift in Sources */,
 				0D731C641F95FE7700668DC8 /* FKRequestURL.swift in Sources */,
 				0D731C791F95FE7700668DC8 /* YBPickerTool.m in Sources */,
 				0D731C961F96069600668DC8 /* MBProgressHUD.m in Sources */,
+				0D03F1391F974B4F00C7C724 /* IntegralViewController.swift in Sources */,
+				0D03F13D1F974BAD00C7C724 /* WillPayViewController.swift in Sources */,
 				0D731C761F95FE7700668DC8 /* FKThirdLogin.swift in Sources */,
 				0D731C6C1F95FE7700668DC8 /* GIFItem.swift in Sources */,
-				0D03F1211F97027000C7C724 /* AddAddressViewController.swift in Sources */,
 				0D731C4E1F95FE7700668DC8 /* FKBaseTableViewController.swift in Sources */,
 				0D731C5C1F95FE7700668DC8 /* FKProgressHUD.swift in Sources */,
+				0D03F13F1F974BE300C7C724 /* WillReceiveViewController.swift in Sources */,
 				0D731C5A1F95FE7700668DC8 /* AppInfoTools.swift in Sources */,
 				0D731C511F95FE7700668DC8 /* UIImage+FKExtension.swift in Sources */,
 				0D731C7F1F96003000668DC8 /* FKTabBarViewController.swift in Sources */,
@@ -863,7 +919,8 @@
 				0D731C621F95FE7700668DC8 /* FKRequestDevice.swift in Sources */,
 				0D731C651F95FE7700668DC8 /* FKRequestUser.swift in Sources */,
 				0D731C601F95FE7700668DC8 /* FKRequestCentral.swift in Sources */,
-				0D03F11F1F97025400C7C724 /* AddressViewController.swift in Sources */,
+				0D03F12C1F9749F600C7C724 /* CKSlideMenu.swift in Sources */,
+				0D03F13B1F974B6D00C7C724 /* CouponViewController.swift in Sources */,
 				0D731C091F95FDA000668DC8 /* MyCarViewController.swift in Sources */,
 				0D731C781F95FE7700668DC8 /* FKPhotoSelect.m in Sources */,
 				0D03F1171F9701A900C7C724 /* UserInfoViewController.swift in Sources */,
@@ -871,7 +928,6 @@
 				0D731C751F95FE7700668DC8 /* TextItem.swift in Sources */,
 				0D731C541F95FE7700668DC8 /* UITextField+IBExtension.swift in Sources */,
 				0D731C701F95FE7700668DC8 /* IndicatorItem.swift in Sources */,
-				0D03F11D1F97024300C7C724 /* AssetsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

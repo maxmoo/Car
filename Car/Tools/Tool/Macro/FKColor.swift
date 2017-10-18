@@ -20,6 +20,10 @@ func carNaviColor() -> UIColor {
     return RGB(R: 54, G: 54, B: 54, A: 1)
 }
 
+func carMainColor() -> UIColor {
+    return RGB(R: 31, G: 185, B: 34, A: 1)
+}
+
 func fkNaviColor(alpha: Float) -> UIColor {
     return RGB(R: 16, G: 69, B: 141, A: CGFloat(alpha))
 }
