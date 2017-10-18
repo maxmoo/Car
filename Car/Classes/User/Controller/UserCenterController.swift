@@ -23,7 +23,7 @@ class UserCenterController: FKBaseViewController {
     }
     var cellDescribeArray: [[String]] {
         get {
-            return [["9,833,921.00￥","25","公司"],
+            return [["9,833,921.00￥","25","徐汇区"],
                     ["",""],
                     ["v1.3.2e6",""]]
         }
