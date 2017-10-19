@@ -28,7 +28,7 @@ class FKBaseTableViewController: UITableViewController {
 //        } else {
 //            // Fallback on earlier versions
 //        }
-        self.navBarBackgroundColor = fkNaviColor(alpha: 1)
+        self.navBarBackgroundColor = carNaviColor()
     }
     
     override func viewWillAppear(_ animated: Bool) {

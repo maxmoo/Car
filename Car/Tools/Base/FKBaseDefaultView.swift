@@ -58,7 +58,7 @@ class FKBaseDefaultView: NSObject{
     func emptyView(addToView: UIView ,emptyMessage: String, emptyImageName: String) -> UIView {
         
         let emptyView = UIView.init(frame: fk_Rect(0, 0, SCREEN_WIDTH(), 200))
-        emptyView.center = fk_Point(addToView.bounds.size.width/2, addToView.bounds.size.height/2 - 20)
+        emptyView.center = fk_Point(addToView.bounds.size.width/2, addToView.bounds.size.height/2 - 80)
         
         //image
         let emptyImageView = UIImageView.init(frame: fk_Rect(0, 0, 100, 100))

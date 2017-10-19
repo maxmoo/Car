@@ -85,6 +85,12 @@
 		0D731C851F9601A700668DC8 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D731C841F9601A700668DC8 /* TencentOpenAPI.framework */; };
 		0D731C921F9605C200668DC8 /* FKControllerAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D731C911F9605C200668DC8 /* FKControllerAnimate.swift */; };
 		0D731C961F96069600668DC8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D731C951F96069600668DC8 /* MBProgressHUD.m */; };
+		0DAEA5381F9849C600B8162F /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEA5361F9849C600B8162F /* CouponTableViewCell.swift */; };
+		0DAEA5391F9849C600B8162F /* CouponTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DAEA5371F9849C600B8162F /* CouponTableViewCell.xib */; };
+		0DAEA53C1F9852CB00B8162F /* IntegralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEA53A1F9852CB00B8162F /* IntegralTableViewCell.swift */; };
+		0DAEA53D1F9852CB00B8162F /* IntegralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DAEA53B1F9852CB00B8162F /* IntegralTableViewCell.xib */; };
+		0DAEA5401F986FE000B8162F /* WillPayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEA53E1F986FE000B8162F /* WillPayTableViewCell.swift */; };
+		0DAEA5411F986FE000B8162F /* WillPayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DAEA53F1F986FE000B8162F /* WillPayTableViewCell.xib */; };
 		33A60B89E438469221E37937 /* Pods_Car.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EA25912A3C60E2063644A9 /* Pods_Car.framework */; };
 /* End PBXBuildFile section */
 
@@ -197,6 +203,12 @@
 		0D731C911F9605C200668DC8 /* FKControllerAnimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKControllerAnimate.swift; sourceTree = "<group>"; };
 		0D731C941F96069600668DC8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		0D731C951F96069600668DC8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0DAEA5361F9849C600B8162F /* CouponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
+		0DAEA5371F9849C600B8162F /* CouponTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponTableViewCell.xib; sourceTree = "<group>"; };
+		0DAEA53A1F9852CB00B8162F /* IntegralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegralTableViewCell.swift; sourceTree = "<group>"; };
+		0DAEA53B1F9852CB00B8162F /* IntegralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntegralTableViewCell.xib; sourceTree = "<group>"; };
+		0DAEA53E1F986FE000B8162F /* WillPayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillPayTableViewCell.swift; sourceTree = "<group>"; };
+		0DAEA53F1F986FE000B8162F /* WillPayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WillPayTableViewCell.xib; sourceTree = "<group>"; };
 		496F58A5A70381F926E607D1 /* Pods-Car.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car.release.xcconfig"; path = "Pods/Target Support Files/Pods-Car/Pods-Car.release.xcconfig"; sourceTree = "<group>"; };
 		C0EA25912A3C60E2063644A9 /* Pods_Car.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Car.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -397,6 +409,12 @@
 			children = (
 				0D03F10F1F96F84000C7C724 /* UserTableViewCell.swift */,
 				0D03F1101F96F84000C7C724 /* UserTableViewCell.xib */,
+				0DAEA5361F9849C600B8162F /* CouponTableViewCell.swift */,
+				0DAEA5371F9849C600B8162F /* CouponTableViewCell.xib */,
+				0DAEA53A1F9852CB00B8162F /* IntegralTableViewCell.swift */,
+				0DAEA53B1F9852CB00B8162F /* IntegralTableViewCell.xib */,
+				0DAEA53E1F986FE000B8162F /* WillPayTableViewCell.swift */,
+				0DAEA53F1F986FE000B8162F /* WillPayTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -788,6 +806,9 @@
 				0D03F1121F96F84000C7C724 /* UserTableViewCell.xib in Resources */,
 				0D03F1151F96FB6C00C7C724 /* Image.xcassets in Resources */,
 				0D28D1B81F96E16400297013 /* User.storyboard in Resources */,
+				0DAEA53D1F9852CB00B8162F /* IntegralTableViewCell.xib in Resources */,
+				0DAEA5411F986FE000B8162F /* WillPayTableViewCell.xib in Resources */,
+				0DAEA5391F9849C600B8162F /* CouponTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,11 +886,13 @@
 				0D731C5F1F95FE7700668DC8 /* ZLEntity.swift in Sources */,
 				0D731C521F95FE7700668DC8 /* UIImageView+FKKingfisher.swift in Sources */,
 				0D03F1231F97028500C7C724 /* MessageViewController.swift in Sources */,
+				0DAEA53C1F9852CB00B8162F /* IntegralTableViewCell.swift in Sources */,
 				0D731C6B1F95FE7700668DC8 /* GIFHeader.swift in Sources */,
 				0D731C4C1F95FE7700668DC8 /* FKBaseDefaultView.swift in Sources */,
 				0D03F1351F974B0B00C7C724 /* AddAddressViewController.swift in Sources */,
 				0D731C5D1F95FE7700668DC8 /* Log.swift in Sources */,
 				0D731C711F95FE7700668DC8 /* RefreshView.swift in Sources */,
+				0DAEA5401F986FE000B8162F /* WillPayTableViewCell.swift in Sources */,
 				0D731C6D1F95FE7700668DC8 /* GIFTextHeader.swift in Sources */,
 				0D731C5B1F95FE7700668DC8 /* CommonTools.swift in Sources */,
 				0D03F1341F974B0B00C7C724 /* OrderViewController.swift in Sources */,
@@ -926,6 +949,7 @@
 				0D03F1171F9701A900C7C724 /* UserInfoViewController.swift in Sources */,
 				0D731C581F95FE7700668DC8 /* FKNotificationConst.swift in Sources */,
 				0D731C751F95FE7700668DC8 /* TextItem.swift in Sources */,
+				0DAEA5381F9849C600B8162F /* CouponTableViewCell.swift in Sources */,
 				0D731C541F95FE7700668DC8 /* UITextField+IBExtension.swift in Sources */,
 				0D731C701F95FE7700668DC8 /* IndicatorItem.swift in Sources */,
 			);

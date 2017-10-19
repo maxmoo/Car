@@ -81,12 +81,20 @@ class UserCenterController: FKBaseViewController {
         headerImageView.layer.borderColor = UIColor.lightGray.cgColor
         headBackView.addSubview(headerImageView)
         
-        let nameLabel = UILabel.init(frame: fk_Rect(110, 20, SCREEN_WIDTH() - 120, 30))
+        let nameLabel = UILabel.init(frame: fk_Rect(105, 15, SCREEN_WIDTH() - 120, 30))
         nameLabel.textAlignment = .left
         nameLabel.font = UIFont.systemFont(ofSize: 15.0)
-        nameLabel.text = "克尔苏加德"
+        nameLabel.text = "琦玉老师"
 //        nameLabel.center = fk_Point((personHeaderView?.bounds.size.width)!/2, (personHeaderView?.bounds.size.height)!/2 + headerImageView.bounds.size.width/2 + 35)
         headBackView.addSubview(nameLabel)
+        
+        let detailLabel = UILabel.init(frame: fk_Rect(105, 55, SCREEN_WIDTH() - 120, 30))
+        detailLabel.textAlignment = .left
+        detailLabel.font = UIFont.systemFont(ofSize: 15.0)
+        detailLabel.textColor = UIColor.lightGray
+        detailLabel.text = "15121177201"
+        //        nameLabel.center = fk_Point((personHeaderView?.bounds.size.width)!/2, (personHeaderView?.bounds.size.height)!/2 + headerImageView.bounds.size.width/2 + 35)
+        headBackView.addSubview(detailLabel)
     }
     
     private func initTableView() {
